@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header-container">
+            <header class="top-navigation">
+                <div>
+                    <p>
+                        Base Camp Mountaineering
+                    </p>
+                </div>
+                <a href="./home.html">Home</a>
+                <a href="./form.html">Sign Up</a>
+                <a href="./links.html">Info</a>
+                <a href="./pics.html">Gallery</a>
+            </header>
+        </div>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>Sign Up</legend>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="last_name" id="lastName">
+                </div>
+
+                <fieldset>
+                    <legend>Previous Experience</legend>
+                    <div>
+                        <label for="crampon">What's A Cramp-on?</label>
+                        <input type="checkbox" name="crampon" id="crampon">
+                    </div>
+                    <div>
+                        <label for="some">Some Occsasional Hiking</label>
+                        <input type="checkbox" name="some" id="some">
+                    </div>
+                    <div>
+                        <label for="weekend">Weekend Warrior</label>
+                        <input type="checkbox" name="weekend" id="weekend">
+                    </div>
+                    <div>
+                        <label for="bagged">Bagged A Few 14ers</label>
+                        <input type="checkbox" name="bagged" id="bagged">
+                    </div>
+                    <div>
+                        <label for="oxygen">Used Supplemental Oxygen</label>
+                        <input type="checkbox" name="oxygen" id="oxygen">
+                    </div>
+                    <div>
+                        <label for="everest">Summited Everest Bro!</label>
+                        <input type="checkbox" name="everest" id="everest">
+                    </div>
+                </fieldset>
+
+                <div>
+                    <label for="why">Tell Us Why You Want To Join</label>
+                    <textarea name="why" id="why" cols="30" rows="10">Your Story Here...</textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="footer-container">
+            <footer class="footer">
+                <p>© 2023 Chase Agee</p>
+            </footer>
+        </div>
+    </body>
+</html>
